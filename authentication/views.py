@@ -280,7 +280,7 @@ def contact(request):
 
     return render(request, 'contact.html')
 def l(request):
-    return render(request, 'authentication\l.html')
+    return render(request, 'authentication/l.html')
 def about(request):
     return render(request, 'about.html')
 def lost(request):
